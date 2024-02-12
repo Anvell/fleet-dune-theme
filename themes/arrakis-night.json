@@ -744,7 +744,7 @@
             "fontModifier": {}
         },
         "identifier.underCaret": {
-            "bgColor": "474747",
+            "bgColor": "Gray 50",
             "stripeColor": "969696",
             "layer": 1000
         },
