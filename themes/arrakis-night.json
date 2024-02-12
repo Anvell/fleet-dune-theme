@@ -1010,6 +1010,26 @@
             "fgColor": "969696",
             "layer": 60
         },
+
+        "editor.indent.guide": {
+            "fgColor": "Gray 60",
+            "decoration": {
+                "style": "DASHED"
+            }
+        },
+        "editor.indent.guide.current": {
+            "fgColor": "Gray 90",
+            "decoration": {
+                "style": "DASHED"
+            }
+        },
+        "editor.indent.guide.declaration": {
+            "fgColor": "Gray 60"
+        },
+        "editor.indent.guide.declaration.current": {
+            "fgColor": "Gray 90"
+        },
+
         "transparent": {}
     },
     "palette": {
