@@ -473,7 +473,7 @@
         "terminal.ansiBrightMagenta.text": "#EB4DDE",
         "terminal.ansiBrightRed.fill": "#66333A",
         "terminal.ansiBrightRed.text": "#C7001B",
-        "terminal.ansiBrightWhite.fill": "Brown 10",
+        "terminal.ansiBrightWhite.fill": "Brown 30",
         "terminal.ansiBrightWhite.text": "Brown 10",
         "terminal.ansiBrightYellow.fill": "#665234",
         "terminal.ansiBrightYellow.text": "#E09119",
