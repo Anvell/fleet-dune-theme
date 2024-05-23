@@ -2,7 +2,7 @@
     "meta": {
         "theme.name": "Arrakis Night",
         "theme.kind": "Dark",
-        "theme.version": 7
+        "theme.version": 8
     },
     "colors": {
         "border": "Brown 50",
@@ -16,6 +16,8 @@
         "icon.green.fill": "Green 40",
         "icon.orange.fill": "Yellow 40",
         "icon.red.fill": "Red 60",
+
+        "tool.background": "Brown 20",
 
         "border.@focused": "Blue 70",
 
@@ -243,11 +245,11 @@
         "rename.postline.text": "Gray 120",
         "rename.postline.usages.text": "Yellow 60",
 
-        "editor.fill": "Brown 30",
+        "editor.background": "Brown 30",
         "editor.text": "Gray 120",
         "editor.caret.fill": "Gray 120",
-        "editor.currentLine.fill": "Brown 20",
-        "editor.currentLine.fill.@focused": "Brown 20",
+        "editor.currentLine.background.default": "Brown 40",
+        "editor.currentLine.background.focused": "Brown 40",
         "editor.lineNumber.text": "Brown 70",
         "editor.lineNumber.text.@selected": "Gray 110",
         "editor.whitespace.text": "Brown 60",
@@ -257,7 +259,7 @@
         "editor.folded.text": "Brown 90",
         "editor.folded.fill": "Brown 50",
 
-        "statusbar.editor.fill": "Brown 30",
+        "statusBar.background": "Brown 30",
 
         "editor.selectableFolded.fill.@active": "Blue 30",
         "editor.selectableFolded.fill.@inactive": "Transparent",
@@ -323,31 +325,47 @@
         "icon.button.text.@selected.@focused.@pressed": "Gray 120",
 
         "input.border": "Brown 60",
-        "input.fill": "Brown 10",
-        "input.text": "Gray 120",
         "input.border.@disabled": "Brown 50",
-        "input.fill.@disabled": "Brown 50",
-        "input.text.@disabled": "Brown 80",
         "input.border.@error": "Red 60",
+        "input.border.@error.@focused": "Red 60",
         "input.border.@focused": "Blue 70",
         "input.caret.fill": "Gray 120",
-        "input.selection.fill": "Blue 40",
-        "input.fill.@error": "Brown 20",
-        "input.text.@error": "Gray 120",
-        "input.fill.@focused": "Brown 10",
-        "input.focusRing.@focused": "Blue 40",
-        "input.text.@focused": "Gray 120",
-        "input.border.@error.@focused": "Red 60",
-        "input.focusRing.@error.@focused": "Red 20",
         "input.caret.fill.@error": "Gray 120",
+        "input.fill": "Brown 10",
+        "input.fill.@disabled": "Brown 50",
+        "input.fill.@error": "Brown 20",
         "input.fill.@error.@focused": "Brown 20",
-        "input.text.@error.@focused": "Gray 120",
+        "input.fill.@focused": "Brown 10",
+        "input.focusRing.@error.@focused": "Red 20",
+        "input.focusRing.@focused": "Blue 40",
+        "input.selection.fill": "Blue 40",
         "input.selection.fill.@error": "Blue 40",
+        "input.text": "Gray 120",
+        "input.text.@disabled": "Brown 80",
+        "input.text.@error": "Gray 120",
+        "input.text.@error.@focused": "Gray 120",
+        "input.text.@focused": "Gray 120",
 
         "link.text": "Blue 100",
         "link.focusRing": "Blue 70",
 
         "list.cursor.border": "Blue 70",
+
+        "listItem.background.default": "Transparent",
+        "listItem.background.focused": "Blue 40",
+        "listItem.background.hovered": "Gray 30",
+        "listItem.background.selected": "Gray 50",
+        "listItem.background.dnd": "Blue 70",
+        "listItem.border.default": "Transparent",
+        "listItem.border.focused": "Transparent",
+        "listItem.border.hovered": "Transparent",
+        "listItem.border.selected": "Transparent",
+        "listItem.focusBorder": "Blue 70",
+        "listItem.text.default": "Gray 120",
+        "listItem.text.focused": "Gray 120",
+        "listItem.text.hovered": "Gray 120",
+        "listItem.text.secondary": "Gray 80",
+        "listItem.text.selected": "Gray 120",
 
         "popup.fill": "Brown 20",
         "popup.border": "Brown 50",
@@ -633,7 +651,11 @@
     },
     "text-attributes": {
         "editor.selection": {
-            "bgColor": "3b494a",
+            "bgColor": "284E52",
+            "layer": 2000
+        },
+        "editor.selection.focused": {
+            "bgColor": "#284E52",
             "layer": 2000
         },
         "editor.text.scheme": {
@@ -1010,7 +1032,7 @@
             "fgColor": "969696",
             "layer": 60
         },
-        
+
         "editor.indent.guide": {
             "fgColor": "Brown 60",
             "decoration": {
@@ -1029,7 +1051,7 @@
         "editor.indent.guide.declaration.current": {
             "fgColor": "Brown 90"
         },
-        
+
         "transparent": {}
     },
     "palette": {
