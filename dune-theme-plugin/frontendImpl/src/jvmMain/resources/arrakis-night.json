@@ -1033,22 +1033,22 @@
             "layer": 60
         },
 
-        "editor.indent.guide": {
+        "editor.indentGuide": {
             "fgColor": "Brown 60",
             "decoration": {
                 "style": "DASHED"
             }
         },
-        "editor.indent.guide.current": {
+        "editor.indentGuide.current": {
             "fgColor": "Brown 90",
             "decoration": {
                 "style": "DASHED"
             }
         },
-        "editor.indent.guide.declaration": {
+        "editor.indentGuide.declaration": {
             "fgColor": "Brown 60"
         },
-        "editor.indent.guide.declaration.current": {
+        "editor.indentGuide.declaration.current": {
             "fgColor": "Brown 90"
         },
 
