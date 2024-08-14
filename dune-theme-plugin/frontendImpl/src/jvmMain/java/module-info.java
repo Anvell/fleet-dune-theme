@@ -1,0 +1,10 @@
+module io.github.anvell.frontendImpl {
+    requires fleet.frontend;
+    requires fleet.kernel;
+    requires fleet.util.logging.api;
+    requires fleet.rhizomedb;
+    requires fleet.frontend.ui;
+
+    exports io.github.anvell.frontendImpl;
+    provides fleet.kernel.plugins.Plugin with io.github.anvell.frontendImpl.DuneThemePlugin;
+}
