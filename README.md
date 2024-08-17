@@ -14,7 +14,11 @@ Harmonic and flow inducing color scheme which is gentle for your eyes.
 
 ### 📦 Installation
 
-- Put `themes` to the `~/.fleet` or `%USERPROFILE%/.fleet` folder depending on OS.
+1. Open Fleet's **plugins** tab and install **Dune Theme**.
+2. Launch theme chooser and activate **Arrakis Night**.
+
+#### Manual installation
+1. Put `arrakis-night.json` into `themes` folder located in `~/.fleet` or `%USERPROFILE%/.fleet` (depending on OS).
 
 <img src="assets/screenshot_01.png">
 
